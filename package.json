@@ -1,0 +1,11 @@
+{
+  "name": "puppeteer-hover-screenshot",
+  "scripts": {
+    "screenshot:headless": "node headless.js",
+    "screenshot:non-headless": "node nonHeadless.js"
+  },
+  "license": "MIT",
+  "devDependencies": {
+    "puppeteer": "^2.0.0"
+  }
+}
